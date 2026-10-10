@@ -1,0 +1,21 @@
+{
+  "slug": "storia-1988",
+  "model": "kling3_0",
+  "displayName": "Kling v3.0",
+  "jobId": "628ea57c-5272-4eb5-b91a-9f37b0708cc7",
+  "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3FuGKr1WcAu5dZdwhDu44FBBUt8/hf_20261008_115138_628ea57c-5272-4eb5-b91a-9f37b0708cc7.mp4",
+  "thumbnailUrl": "https://cdn.higgsfield.ai/user_3FuGKr1WcAu5dZdwhDu44FBBUt8/hf_20261008_115138_628ea57c-5272-4eb5-b91a-9f37b0708cc7_thumbnail.webp",
+  "prompt": "Subtle, realistic 5-second clip, locked camera: moving day 1988 in front of the pharmacy, a man seen from behind carries a cardboard box from the white van toward the door, the van stays still, the awning sways slightly, nothing else changes, no text appears, no camera shake, true colours without grain.",
+  "startImage": "assets/v12/storia/1988.webp",
+  "duration": 5,
+  "aspectRatio": "16:9",
+  "pingpong": false,
+  "credits": 10,
+  "createdAt": "2026-10-08T11:51:38.762131Z",
+  "attempts": 1,
+  "files": {
+    "desktop": "storia-1988.mp4",
+    "mobile": "storia-1988-m.mp4",
+    "poster": "storia-1988.webp"
+  }
+}

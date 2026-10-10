@@ -1,0 +1,22 @@
+{
+  "slug": "storia-1999",
+  "model": "kling3_0",
+  "display_name": "Kling v3.0",
+  "jobId": "dee405c4-4cb6-49b5-9990-cdcad58e94c4",
+  "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3FuGKr1WcAu5dZdwhDu44FBBUt8/hf_20261008_115142_dee405c4-4cb6-49b5-9990-cdcad58e94c4.mp4",
+  "thumbnailUrl": "https://cdn.higgsfield.ai/user_3FuGKr1WcAu5dZdwhDu44FBBUt8/hf_20261008_115142_dee405c4-4cb6-49b5-9990-cdcad58e94c4_thumbnail.webp",
+  "prompt": "Subtle, realistic 5-second clip, locked camera: warm morning light slowly drifts across the white coat on its hook and the brass keys on the wooden counter, a few dust motes float in the light beam, nothing else moves, no people, no text, no camera shake.",
+  "credits": 10,
+  "duration": 5,
+  "mode": "std",
+  "aspect_ratio": "16:9",
+  "pingpong": true,
+  "startImage": "prototypes-v12-cinema/public/assets/v12/storia/1999.webp",
+  "created_at": "2026-10-08T11:51:42.314097Z",
+  "attempts": 1,
+  "files": {
+    "desktop": "storia-1999.mp4",
+    "mobile": "storia-1999-m.mp4",
+    "poster": "storia-1999.webp"
+  }
+}
