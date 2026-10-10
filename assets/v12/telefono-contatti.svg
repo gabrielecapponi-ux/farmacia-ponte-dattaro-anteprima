@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="960" viewBox="0 0 1200 960" role="img" aria-label="Telefono pieghevole aperto: Chiama, WhatsApp, Email">
+ <defs>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef1ee"/><stop offset=".09" stop-color="#808f87"/><stop offset=".17" stop-color="#fafdf9"/><stop offset=".46" stop-color="#65776d"/><stop offset=".54" stop-color="#e7eee8"/><stop offset=".78" stop-color="#7a8c81"/><stop offset="1" stop-color="#f7fbf5"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#758a7d"/><stop offset=".18" stop-color="#e6eee5"/><stop offset=".35" stop-color="#f9fff8"/><stop offset=".52" stop-color="#44594b"/><stop offset=".78" stop-color="#e2eae0"/><stop offset="1" stop-color="#52695c"/></linearGradient>
+  <linearGradient id="screen" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#156d4b"/><stop offset=".38" stop-color="#12573e"/><stop offset="1" stop-color="#092e23"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".15"/><stop offset=".42" stop-color="#e8fff0" stop-opacity=".04"/><stop offset=".62" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity=".025"/></linearGradient>
+  <linearGradient id="call" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#36dc86"/><stop offset=".48" stop-color="#04aa63"/><stop offset="1" stop-color="#007d4c"/></linearGradient>
+  <linearGradient id="wa" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#67f08b"/><stop offset=".5" stop-color="#22cf67"/><stop offset="1" stop-color="#0aa955"/></linearGradient>
+  <linearGradient id="ivory" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffef8"/><stop offset=".58" stop-color="#f8f6e9"/><stop offset="1" stop-color="#e8e7d6"/></linearGradient>
+  <radialGradient id="shadow"><stop stop-color="#092f20" stop-opacity=".25"/><stop offset="1" stop-color="#092f20" stop-opacity="0"/></radialGradient>
+  <linearGradient id="crease" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#021b12" stop-opacity=".45"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#021b12" stop-opacity=".3"/></linearGradient>
+  <g id="arrow" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m-9 9 18-18M-9-9H9V9"/></g>
+ </defs>
+ <ellipse cx="603" cy="901" rx="543" ry="47" fill="url(#shadow)"/>
+ <!-- Thin titanium rims and independent glass planes retain the open tri-fold silhouette. -->
+ <path d="M85 54Q48 54 47 91L57 793Q57 825 89 830L408 836 410 56Z" fill="url(#metal)" stroke="#62786b" stroke-width="2"/>
+ <path d="m408 56 367-3-3 804-364-21Z" fill="url(#edge)" stroke="#6d8073" stroke-width="2"/>
+ <path d="m775 53 341-11q43 0 43 43l-31 783q-1 31-33 29l-323-40Z" fill="url(#metal)" stroke="#7d8e81" stroke-width="2"/>
+ <path d="M87 63Q57 62 57 94L67 790Q67 815 90 819L402 826 403 64Z" fill="url(#screen)" stroke="#052d1f" stroke-width="5"/>
+ <path d="m414 64 352-3-1 784-351-19Z" fill="url(#screen)" stroke="#052d1f" stroke-width="5"/>
+ <path d="m782 61 332-10q36 0 35 36l-30 778q-1 23-24 22l-321-40Z" fill="url(#screen)" stroke="#052d1f" stroke-width="5"/>
+ <path d="m395 68 12-2-1 757-11-2Z" fill="url(#crease)"/>
+ <path d="m762 67 17-2-10 774-12-2Z" fill="url(#crease)"/>
+ <!-- Clear, quiet screen reflections: vector artwork stays sharp at Retina scale. -->
+ <path d="M88 176Q82 176 82 185L91 769Q91 789 111 790L381 803 384 181Q384 173 375 173Z" fill="url(#glass)" stroke="#b6eac9" stroke-opacity=".2" stroke-width="2"/>
+ <path d="M446 180Q438 180 438 190L443 788Q443 807 463 809L730 825Q741 825 742 811L749 191Q749 181 738 181Z" fill="url(#glass)" stroke="#b6eac9" stroke-opacity=".2" stroke-width="2"/>
+ <path d="M810 185Q803 185 803 197L794 807Q795 823 811 826L1067 862Q1094 864 1095 842L1121 201Q1121 186 1107 184Z" fill="url(#glass)" stroke="#b6eac9" stroke-opacity=".2" stroke-width="2"/>
+ <path d="M83 63 402 65M415 64l351-2M784 61l329-10" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="2"/>
+ <path d="m63 95 9 693M1148 90l-29 775" fill="none" stroke="#fff" stroke-opacity=".2" stroke-width="2"/>
+ <text x="94" y="111" fill="#f4fff6" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700">08:30</text>
+ <circle cx="590" cy="105" r="9" fill="#021a12"/><circle cx="588" cy="103" r="3" fill="#325743"/>
+ <g fill="#e8f8ed"><rect x="1032" y="104" width="5" height="7" rx="1"/><rect x="1041" y="99" width="5" height="12" rx="1"/><rect x="1050" y="94" width="5" height="17" rx="1"/><rect x="1059" y="89" width="5" height="22" rx="1"/></g>
+ <g fill="none" stroke="#e8f8ed" stroke-width="3"><rect x="1078" y="92" width="29" height="16" rx="4"/><path d="M1111 97v6"/></g><rect x="1082" y="96" width="20" height="8" rx="1" fill="#e8f8ed"/>
+ <!-- The three screen controls are real native links above this graphic. -->
+ <ellipse cx="230" cy="390" rx="91" ry="91" fill="#031e15" fill-opacity=".24"/>
+ <circle cx="230" cy="381" r="91" fill="url(#call)" stroke="#94ffd0" stroke-opacity=".25" stroke-width="2"/>
+ <path d="M202 333h15q6 0 7 6l4 23q1 5-3 8l-9 7q12 24 36 36l8-10q3-4 8-2l21 7q5 2 5 8v15q0 8-8 9c-48 2-96-44-98-92q0-15 14-15Z" fill="#fffef7" transform="translate(-11 -9)"/>
+ <ellipse cx="591" cy="404" rx="91" ry="91" fill="#031e15" fill-opacity=".23"/>
+ <circle cx="591" cy="395" r="91" fill="url(#wa)" stroke="#b8ffce" stroke-opacity=".35" stroke-width="2"/>
+ <path d="M592 345a48 48 0 0 0-42 71l-8 28 29-8a48 48 0 1 0 21-91Z" fill="#fffef7"/>
+ <path d="m572 366 8 1q3 0 4 4l4 9q1 3-2 5l-5 5q8 14 21 19l5-6q2-3 5-1l10 5q3 1 2 5c-2 14-19 14-32 7-16-8-28-23-29-37q0-12 9-16Z" fill="#1bc568"/>
+ <ellipse cx="953" cy="418" rx="91" ry="91" fill="#031e15" fill-opacity=".23"/>
+ <circle cx="953" cy="409" r="91" fill="url(#ivory)" stroke="#fff" stroke-opacity=".6" stroke-width="2"/>
+ <g fill="none" stroke="#093b29" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><rect x="909" y="379" width="87" height="61" rx="9" transform="rotate(2 953 409)"/><path d="m916 385 36 29 37-27"/></g>
+ <g fill="#fffef7" font-family="Arial,Helvetica,sans-serif" font-size="41" font-weight="700" text-anchor="middle" letter-spacing="-.8"><text x="231" y="575">Chiama</text><text x="591" y="591">WhatsApp</text><text x="953" y="611" transform="rotate(3 953 611)">Email</text></g>
+ <g font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700" fill="#123d2c" color="#123d2c">
+  <rect x="108" y="652" width="247" height="68" rx="34" fill="url(#ivory)"/>
+  <text x="130" y="696">Chiama ora</text><use href="#arrow" x="323" y="684"/>
+  <g transform="rotate(2 592 700)"><rect x="468" y="666" width="247" height="68" rx="34" fill="url(#ivory)"/><text x="492" y="710">Apri la chat</text><use href="#arrow" x="684" y="698"/></g>
+  <g transform="rotate(4 953 725)"><rect x="830" y="691" width="247" height="68" rx="34" fill="url(#ivory)"/><text x="857" y="735">Scrivi ora</text><use href="#arrow" x="1045" y="723"/></g>
+ </g>
+ <g fill="none" stroke="#0a2117" stroke-opacity=".55" stroke-width="3"><path d="M408 77v746M774 75l-6 764"/></g>
+</svg>

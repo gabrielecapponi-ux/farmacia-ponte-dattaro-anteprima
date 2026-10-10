@@ -1,9 +1,11 @@
 {
-  "version": "v11e",
+  "version": "v14-light",
   "hls": "hls/v11e",
-  "hevc": true,
+  "hevc": false,
   "avif": true,
-  "seconds": 18.433333,
-  "frames": 553,
-  "note": "Scritto da encode-site.sh: la pagina legge da qui la versione di tutti i file del filmato (vite.config.js filmManifest)."
+  "seconds": 7.791666666666667,
+  "frames": 187,
+  "note": "Ingresso a ritmo incorporato, H264 24 fps 1x; i master precedenti sono conservati solo come sorgenti.",
+  "paced": true,
+  "sourceSeconds": 18.433333333333334
 }
