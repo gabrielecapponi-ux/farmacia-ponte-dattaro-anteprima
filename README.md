@@ -1,6 +1,6 @@
-# Farmacia Ponte Dattaro · 1.0.16
+# Farmacia Ponte Dattaro · 1.0.17
 
-[**Apri il sito da computer o iPhone**](https://gabrielecapponi-ux.github.io/farmacia-ponte-dattaro-anteprima/?revisione=finale-1.0.16)
+[**Apri il sito da computer o iPhone**](https://gabrielecapponi-ux.github.io/farmacia-ponte-dattaro-anteprima/?revisione=finale-1.0.17)
 
 Il sito è pubblico: basta una connessione Internet, anche cellulare.
 
