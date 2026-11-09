@@ -1,33 +1,37 @@
 {
-  "version": "v17-insegna",
+  "version": "v20-hd",
   "hls": "hls/v11e",
   "hevc": false,
   "avif": true,
-  "seconds": 15.583333333333334,
-  "frames": 374,
-  "note": "Dal primo piano della croce al banco. I fotogrammi consecutivi 179–552 dei due master V11e a 30 fps sono conformati a 24 fps e controllati dallo scroll.",
-  "sourceSeconds": 12.466666666666667,
-  "sourceRate": 0.8,
+  "seconds": 15.541666666666666,
+  "frames": 746,
+  "note": "Percorso dalla croce al bancone restaurato e interpolato dai master V11e con Higgsfield. Master migliorati in 4K, non riprese native 4K. Controllo dello scroll e qualità adattiva.",
   "files": {
-    "mobile": "ingresso-mobile-v17-insegna.mp4",
-    "desktop": "ingresso-desktop-v17-insegna.mp4"
+    "mobile": "ingresso-mobile-v20-1080.mp4",
+    "desktop": "ingresso-desktop-v20-1080.mp4"
   },
   "runtime": "scroll-scrub",
   "mobileEncoding": {
-    "width": 512,
-    "height": 910,
-    "fps": 24,
+    "width": 1080,
+    "height": 1920,
+    "fps": 48.0,
+    "bitrate": 9509110,
+    "codec": "avc1.64002a",
     "closedGopFrames": 8,
     "bFrames": 0
   },
   "posters": {
     "mobile": {
-      "avif": "poster-mobile-v17-insegna.avif",
-      "webp": "poster-mobile-v17-insegna.webp"
+      "avif": "poster-mobile-v20.avif",
+      "webp": "poster-mobile-v20.webp",
+      "width": 1080,
+      "height": 1920
     },
     "desktop": {
-      "avif": "poster-desktop-v17-insegna.avif",
-      "webp": "poster-desktop-v17-insegna.webp"
+      "avif": "poster-desktop-v20.avif",
+      "webp": "poster-desktop-v20.webp",
+      "width": 3840,
+      "height": 2160
     }
   },
   "sourceFrameRange": {
@@ -42,10 +46,68 @@
     "counter": 0.879357
   },
   "desktopEncoding": {
-    "width": 1280,
-    "height": 720,
-    "fps": 24,
+    "width": 1920,
+    "height": 1080,
+    "fps": 48.0,
+    "bitrate": 9527278,
+    "codec": "avc1.64002a",
     "closedGopFrames": 8,
     "bFrames": 0
+  },
+  "variants": {
+    "mobile": [
+      {
+        "file": "ingresso-mobile-v20-720.mp4",
+        "width": 720,
+        "height": 1280,
+        "fps": 48.0,
+        "frames": 746,
+        "bitrate": 3827716,
+        "codec": "avc1.640020",
+        "closedGopFrames": 8
+      },
+      {
+        "file": "ingresso-mobile-v20-1080.mp4",
+        "width": 1080,
+        "height": 1920,
+        "fps": 48.0,
+        "frames": 746,
+        "bitrate": 9509110,
+        "codec": "avc1.64002a",
+        "closedGopFrames": 8
+      }
+    ],
+    "desktop": [
+      {
+        "file": "ingresso-desktop-v20-720.mp4",
+        "width": 1280,
+        "height": 720,
+        "fps": 48.0,
+        "frames": 746,
+        "bitrate": 3824727,
+        "codec": "avc1.640020",
+        "closedGopFrames": 8
+      },
+      {
+        "file": "ingresso-desktop-v20-1080.mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 48.0,
+        "frames": 746,
+        "bitrate": 9527278,
+        "codec": "avc1.64002a",
+        "closedGopFrames": 8
+      },
+      {
+        "file": "ingresso-desktop-v20-2160.mp4",
+        "width": 3840,
+        "height": 2160,
+        "fps": 48.0,
+        "frames": 746,
+        "bitrate": 24117892,
+        "codec": "avc1.640034",
+        "closedGopFrames": 4
+      }
+    ]
   }
 }
