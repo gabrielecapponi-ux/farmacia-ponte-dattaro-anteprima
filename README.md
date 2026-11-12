@@ -1,9 +1,7 @@
-# Farmacia Ponte Dattaro · 1.0.24
+# Farmacia Ponte Dattaro · 1.0.25
 
-[**Apri il sito da computer o iPhone**](https://gabrielecapponi-ux.github.io/farmacia-ponte-dattaro-anteprima/?revisione=finale-1.0.24)
+[Apri il sito su computer o telefono](https://gabrielecapponi-ux.github.io/farmacia-ponte-dattaro-anteprima/?revisione=finale-1.0.25) · [Laboratorio galenico](https://gabrielecapponi-ux.github.io/farmacia-ponte-dattaro-anteprima/caricamento.html?revisione=finale-1.0.25)
 
-L’anteprima si apre nel browser su computer o telefono.
+Questa copia contiene soltanto la versione web compilata. Sorgenti, pannello amministrativo, master e diagnosi sono esclusi.
 
-Questa copia contiene soltanto la versione web compilata. Sorgenti di lavoro, pannello amministrativo, master, log e diagnosi sono esclusi.
-
-Versione tecnica da condividere con la farmacia: ricostruzioni e personale illustrativi, dati da confermare prima dell’impiego ufficiale.
+Prototipo illustrativo da condividere con la farmacia; dati da confermare prima dell'impiego ufficiale.
