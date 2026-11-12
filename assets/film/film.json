@@ -1,37 +1,83 @@
 {
-  "version": "v20-hd",
+  "version": "v24-cinema",
   "hls": "hls/v11e",
   "hevc": false,
   "avif": true,
-  "seconds": 15.541666666666666,
-  "frames": 746,
-  "note": "Percorso dalla croce al bancone restaurato e interpolato dai master V11e con Higgsfield. Master migliorati in 4K, non riprese native 4K. Controllo dello scroll e qualità adattiva.",
+  "seconds": 15.333333333333334,
+  "frames": 920,
+  "note": "Percorso dalla croce al bancone rielaborato con Higgsfield e finalizzato a 4K/60 fps. Immagini elaborate da master esistenti, non riprese native 4K. Controllo dello scroll e qualità adattiva.",
   "files": {
-    "mobile": "ingresso-mobile-v20-1080.mp4",
-    "desktop": "ingresso-desktop-v20-1080.mp4"
+    "mobile": "ingresso-mobile-v24-1080.mp4",
+    "desktop": "ingresso-desktop-v24-1080.mp4"
   },
   "runtime": "scroll-scrub",
   "mobileEncoding": {
     "width": 1080,
     "height": 1920,
-    "fps": 48.0,
-    "bitrate": 9509110,
+    "fps": 60.0,
+    "bitrate": 12022756,
     "codec": "avc1.64002a",
-    "closedGopFrames": 8,
+    "closedGopFrames": 6,
     "bFrames": 0
   },
   "posters": {
     "mobile": {
-      "avif": "poster-mobile-v20.avif",
-      "webp": "poster-mobile-v20.webp",
-      "width": 1080,
-      "height": 1920
+      "width": 2160,
+      "height": 3840,
+      "avif": "poster-mobile-v24.avif",
+      "webp": "poster-mobile-v24.webp",
+      "variants": [
+        {
+          "width": 540,
+          "height": 960,
+          "avif": "poster-mobile-v24-540.avif",
+          "webp": "poster-mobile-v24-540.webp"
+        },
+        {
+          "width": 1080,
+          "height": 1920,
+          "avif": "poster-mobile-v24-1080.avif",
+          "webp": "poster-mobile-v24-1080.webp"
+        },
+        {
+          "width": 1440,
+          "height": 2560,
+          "avif": "poster-mobile-v24-1440.avif",
+          "webp": "poster-mobile-v24-1440.webp"
+        },
+        {
+          "width": 2160,
+          "height": 3840,
+          "avif": "poster-mobile-v24.avif",
+          "webp": "poster-mobile-v24.webp"
+        }
+      ]
     },
     "desktop": {
-      "avif": "poster-desktop-v20.avif",
-      "webp": "poster-desktop-v20.webp",
       "width": 3840,
-      "height": 2160
+      "height": 2160,
+      "avif": "poster-desktop-v24.avif",
+      "webp": "poster-desktop-v24.webp",
+      "variants": [
+        {
+          "width": 960,
+          "height": 540,
+          "avif": "poster-desktop-v24-960.avif",
+          "webp": "poster-desktop-v24-960.webp"
+        },
+        {
+          "width": 1920,
+          "height": 1080,
+          "avif": "poster-desktop-v24-1920.avif",
+          "webp": "poster-desktop-v24-1920.webp"
+        },
+        {
+          "width": 3840,
+          "height": 2160,
+          "avif": "poster-desktop-v24.avif",
+          "webp": "poster-desktop-v24.webp"
+        }
+      ]
     }
   },
   "sourceFrameRange": {
@@ -48,63 +94,83 @@
   "desktopEncoding": {
     "width": 1920,
     "height": 1080,
-    "fps": 48.0,
-    "bitrate": 9527278,
+    "fps": 60.0,
+    "bitrate": 12032833,
     "codec": "avc1.64002a",
-    "closedGopFrames": 8,
+    "closedGopFrames": 6,
     "bFrames": 0
   },
   "variants": {
     "mobile": [
       {
-        "file": "ingresso-mobile-v20-720.mp4",
+        "file": "ingresso-mobile-v24-720.mp4",
         "width": 720,
         "height": 1280,
-        "fps": 48.0,
-        "frames": 746,
-        "bitrate": 3827716,
+        "fps": 60.0,
+        "frames": 920,
+        "bitrate": 5029925,
         "codec": "avc1.640020",
-        "closedGopFrames": 8
+        "closedGopFrames": 6
       },
       {
-        "file": "ingresso-mobile-v20-1080.mp4",
+        "file": "ingresso-mobile-v24-1080.mp4",
         "width": 1080,
         "height": 1920,
-        "fps": 48.0,
-        "frames": 746,
-        "bitrate": 9509110,
+        "fps": 60.0,
+        "frames": 920,
+        "bitrate": 12022756,
         "codec": "avc1.64002a",
-        "closedGopFrames": 8
+        "closedGopFrames": 6
+      },
+      {
+        "file": "ingresso-mobile-v24-1440.mp4",
+        "width": 1440,
+        "height": 2560,
+        "fps": 60.0,
+        "frames": 920,
+        "bitrate": 20068173,
+        "codec": "avc1.640033",
+        "closedGopFrames": 4
+      },
+      {
+        "file": "ingresso-mobile-v24-2160.mp4",
+        "width": 2160,
+        "height": 3840,
+        "fps": 60.0,
+        "frames": 920,
+        "bitrate": 35993919,
+        "codec": "avc1.640034",
+        "closedGopFrames": 4
       }
     ],
     "desktop": [
       {
-        "file": "ingresso-desktop-v20-720.mp4",
+        "file": "ingresso-desktop-v24-720.mp4",
         "width": 1280,
         "height": 720,
-        "fps": 48.0,
-        "frames": 746,
-        "bitrate": 3824727,
+        "fps": 60.0,
+        "frames": 920,
+        "bitrate": 5028725,
         "codec": "avc1.640020",
-        "closedGopFrames": 8
+        "closedGopFrames": 6
       },
       {
-        "file": "ingresso-desktop-v20-1080.mp4",
+        "file": "ingresso-desktop-v24-1080.mp4",
         "width": 1920,
         "height": 1080,
-        "fps": 48.0,
-        "frames": 746,
-        "bitrate": 9527278,
+        "fps": 60.0,
+        "frames": 920,
+        "bitrate": 12032833,
         "codec": "avc1.64002a",
-        "closedGopFrames": 8
+        "closedGopFrames": 6
       },
       {
-        "file": "ingresso-desktop-v20-2160.mp4",
+        "file": "ingresso-desktop-v24-2160.mp4",
         "width": 3840,
         "height": 2160,
-        "fps": 48.0,
-        "frames": 746,
-        "bitrate": 24117892,
+        "fps": 60.0,
+        "frames": 920,
+        "bitrate": 36137407,
         "codec": "avc1.640034",
         "closedGopFrames": 4
       }
